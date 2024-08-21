@@ -1,0 +1,53 @@
+html {
+    background-color: rgb(213, 225, 160);
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 20px;
+    border-top: 4px solid rgb(221, 3, 3);
+    border-bottom: 4px solid rgb(220, 0, 0);
+}
+
+body h1 {
+    background-color: rgb(112, 137, 209);
+    text-align: center;
+}
+
+.foot {
+    color: aliceblue;
+    font-family: Tahoma, sans-serif;
+    margin-left: 32px;
+    margin-right: 32px;
+    font-size: 25px;
+ }
+
+ .foot ul{
+    margin: 0;
+    padding: 0;
+ }
+
+ .foot li{
+    list-style: none;
+    float: left;
+    margin-right: 50px;
+    margin-top: 20px;
+
+ }
+
+ a{
+    display: block;
+    background-color: rgb(60, 252, 255);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 3px 30px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 8px;
+
+
+}
+
+a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
